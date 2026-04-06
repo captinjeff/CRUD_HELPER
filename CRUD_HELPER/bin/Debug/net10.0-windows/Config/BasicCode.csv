@@ -1,0 +1,5 @@
+﻿GROUP_CD,GROUP_NM,CODE,CODE_NM,USE_YN,SORT_NO
+DB_TYPE,디비 타입,1,ORACLE,Y,1
+DB_TYPE,디비 타입,2,POSTGRE,Y,2
+parameter,sql parameter,1,HASHMAP,Y,1
+parameter,sql parameter,2,MAP,Y,1

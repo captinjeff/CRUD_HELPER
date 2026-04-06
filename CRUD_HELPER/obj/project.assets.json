@@ -1,11 +1,51 @@
 {
   "version": 3,
   "targets": {
-    "net10.0-windows7.0": {}
+    "net10.0-windows7.0": {
+      "Npgsql/6.0.13": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Npgsql/6.0.13": {
+      "sha512": "BykQh/1NuozrAMk4uHQe0/YhCO9Xv+iGI3ZkQ0niPr88nV9oLq4gbn72zwQlzAOqKR6L8abx9rlEVQIjWxArEg==",
+      "type": "package",
+      "path": "npgsql/6.0.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Npgsql.dll",
+        "lib/net5.0/Npgsql.xml",
+        "lib/net6.0/Npgsql.dll",
+        "lib/net6.0/Npgsql.xml",
+        "lib/netcoreapp3.1/Npgsql.dll",
+        "lib/netcoreapp3.1/Npgsql.xml",
+        "lib/netstandard2.0/Npgsql.dll",
+        "lib/netstandard2.0/Npgsql.xml",
+        "lib/netstandard2.1/Npgsql.dll",
+        "lib/netstandard2.1/Npgsql.xml",
+        "npgsql.6.0.13.nupkg.sha512",
+        "npgsql.nuspec",
+        "postgresql.png"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0-windows7.0": []
+    "net10.0-windows7.0": [
+      "Npgsql >= 6.0.13"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\KURIAS-RESEARCH3\\.nuget\\packages\\": {}
@@ -27,7 +67,8 @@
         "net10.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0-windows7.0": {
@@ -50,6 +91,12 @@
     "frameworks": {
       "net10.0-windows7.0": {
         "targetAlias": "net10.0-windows",
+        "dependencies": {
+          "Npgsql": {
+            "target": "Package",
+            "version": "[6.0.13, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

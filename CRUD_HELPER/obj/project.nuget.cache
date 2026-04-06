@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LcjLOt4fxH8=",
+  "dgSpecHash": "1Om38HFYbEE=",
   "success": true,
   "projectFilePath": "D:\\황재필\\SOURCE\\CRUD_HELPER\\CRUD_HELPER\\CRUD_HELPER.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\KURIAS-RESEARCH3\\.nuget\\packages\\npgsql\\6.0.13\\npgsql.6.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
