@@ -160,7 +160,7 @@ namespace CRUD_HELPER
         {
             string trimmedSql = sql.Trim();
 
-
+             
             if (CboDbOp.SelectedValue.Equals("1"))
             {
                 trimmedSql = ConvertAtParamToMyBatisParam(trimmedSql);
