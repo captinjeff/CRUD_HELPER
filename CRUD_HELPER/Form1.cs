@@ -5,6 +5,8 @@ namespace CRUD_HELPER
         public Form1()
         {
             InitializeComponent();
+
+            
         }
     }
 }
